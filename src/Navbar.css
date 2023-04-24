@@ -1,0 +1,114 @@
+.navbar {
+  padding: 0 1rem;
+  background-color: #edefee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  box-shadow: 0 10px 6px -10px #777;
+  padding: 0% 7%;
+}
+.navbarNav {
+  padding-top: 2em;
+  list-style: none;
+  text-align: center;
+  background-color: #edefee;
+  position: absolute;
+  top: 65px;
+  width: 150vw;
+  height: calc(100vh - 65px);
+  transform: translateX(-10000px);
+  /* left: calc(100% - 10000px); */
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+
+.navbarNav.active {
+  /* left: 0; */
+  transform: translateX(-1rem);
+}
+.navItem {
+  position: relative;
+  margin: 5px;
+  font-size: 1.3em;
+  width: 170px;
+}
+
+.navItem a:hover {
+  color: #495e57;
+  text-decoration: underline;
+}
+.navItem a {
+  display: block;
+  margin: 0 auto;
+  color: black;
+  text-decoration: none;
+  position: relative;
+  text-align: center;
+  transition: all 0.3s ease;
+  font-family: Karla;
+}
+
+.hamburgerIcon {
+  width: 30px;
+  display: block;
+  background-color: #495e57;
+  height: 3px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.hamburgerIcon:after,
+.hamburgerIcon:before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 3px;
+  background-color: #495e57;
+  position: absolute;
+  left: 5px;
+  border-radius: 50px;
+}
+
+.hamburgerIcon:after {
+  bottom: -10px;
+  left: 10px;
+}
+
+.hamburgerIcon:before {
+  bottom: 10px;
+  left: -5px;
+  width: 35px;
+}
+
+/************* DESKTOP STYLE **************************/
+@media screen and (min-width: 1025px) {
+  .navbarNav {
+    display: flex;
+    position: initial;
+    width: initial;
+    height: initial;
+    padding-top: 0;
+    transform: none;
+  }
+  /* underline animation is inspired by: https://codepen.io/jstn/pen/zuDst*/
+
+  .navItem a {
+    border: none;
+    display: inline-block;
+    width: 100px;
+  }
+  .navItem:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    border-radius: 25px;
+    position: absolute;
+    transition: all 0.3s linear;
+    bottom: -2px;
+    left: 0;
+  }
+  .hamburgerIcon {
+    display: none;
+  }
+}
