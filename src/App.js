@@ -1,6 +1,7 @@
 import Navbar from "./Navbar.js";
 import Hero from "./Hero.js";
 import Cards from "./Cards.js";
+import Carousel from "./Carourel.js";
 import "./App.css";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Hero />
       <Cards />
+      <Carousel />
     </>
   );
 }
