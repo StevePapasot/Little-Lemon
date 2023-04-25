@@ -85,7 +85,7 @@
     margin: 5% 0%;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1030px) {
   .left {
     width: 60%;
   }
@@ -95,13 +95,13 @@
   .carousel h1 {
     color: #f4ce14;
     font-family: Markanzi Text;
-    font-size: 30px;
+    font-size: 25px;
   }
   .carousel h3 {
     color: #000000;
     font-family: Markanzi Text;
     font-size: 20px;
-    margin-top: -7%;
+    margin-top: 0%;
   }
   .right img {
     width: 100%;
