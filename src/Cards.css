@@ -38,6 +38,11 @@
   color: #ee9972;
   padding-left: 25%;
 }
+@media screen and (max-width: 1100px) {
+  .cards {
+    padding: 6%;
+  }
+}
 @media screen and (max-width: 500px) {
   .card h2 {
     font-size: 0.6rem;
