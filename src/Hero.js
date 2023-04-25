@@ -10,7 +10,7 @@ function Hero() {
     <section className="hero">
       <div className="container">
         <div className="row">
-          <div className="left">
+          <div className="hleft">
             <h1>Little Lemon</h1>
             <h3>Chicago</h3>
             <p>
@@ -28,7 +28,7 @@ function Hero() {
             </p>
             <button>Reserve a Table</button>
           </div>
-          <div className="right">
+          <div className="hright">
             <img src={First} alt="Right Column Image" />
           </div>
         </div>

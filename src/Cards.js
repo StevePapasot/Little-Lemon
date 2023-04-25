@@ -12,76 +12,59 @@ import Lemon from "./Lemon.png";
 
 function Cards() {
   return (
-    <Container>
-      <Row>
-        <Col>
-          <Card style={{ width: "12.5rem" }}>
-            <Card.Img variant="top" src={Greek} />
-            <Card.Body>
-              <Card.Title>
-                Greek salad <span>$12.99</span>
-              </Card.Title>
-
-              <Card.Text>
-                Greek salad, also known as Horiatiki in Greece, is a refreshing
-                and colorful dish, enjoyed by many around the world for its
-                flavors and health benefits. A very nutritious meal with great
-                taste and flavours.
-              </Card.Text>
-              <a href="#">Order a delivery</a>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card style={{ width: "12.5rem" }}>
-            <Card.Img variant="top" src={Tacos} />
-            <Card.Body>
-              <Card.Title>
-                Tacos <span>$8.50</span>
-              </Card.Title>
-
-              <Card.Text>
-                Tacos are a popular and versatile Mexican dish that has gained
-                immense popularity around the world because of their delicious
-                flavours and versatility. A great starting dish..
-              </Card.Text>
-              <a href="#">Order a delivery</a>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card style={{ width: "12.5rem" }}>
-            <Card.Img variant="top" src={Bruchetta} />
-            <Card.Body>
-              <Card.Title>
-                Bruchetta <span>$6.99</span>
-              </Card.Title>
-              <Card.Text>
-                Bruschetta is a popular Italian appetizer, well-loved for its
-                simplicity and delightful flavours.
-              </Card.Text>
-              <a href="#">Order a delivery</a>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card style={{ width: "12.5rem" }}>
-            <Card.Img variant="top" src={Lemon} />
-            <Card.Body>
-              <Card.Title>
-                Lemon pie <span>$7.00</span>
-              </Card.Title>
-              <Card.Text>
-                Our signature dish, Lemon pie, also known as lemon meringue pie,
-                is a popular dessert known for its tangy, sweet, and creamy
-                flavours.
-              </Card.Text>
-              <a href="#">Order a delivery</a>
-            </Card.Body>
-          </Card>
-        </Col>
-      </Row>
-    </Container>
+    <div className="cards">
+      <div className="card">
+        <img src={Greek} alt="Card 1" />
+        <div className="card-body">
+          <h2>
+            Greek salad <span>$12.99</span>
+          </h2>
+          <p>
+            Greek salad, also known as Horiatiki in Greece, is a refreshing and
+            colorful dish, enjoyed by many around the world for its flavors and
+            health benefits. A very nutritious meal with great taste and
+            flavours.
+          </p>
+        </div>
+      </div>
+      <div className="card">
+        <img src={Tacos} alt="Card 2" />
+        <div className="card-body">
+          <h2>
+            Tacos <span>$8.50</span>
+          </h2>
+          <p>
+            Tacos are a popular and versatile Mexican dish that has gained
+            immense popularity around the world because of their delicious
+            flavours and versatility. A great starting dish.
+          </p>
+        </div>
+      </div>
+      <div className="card">
+        <img src={Bruchetta} alt="Card 3" />
+        <div className="card-body">
+          <h2>
+            Bruchetta <span>$6.99</span>
+          </h2>
+          <p>
+            Bruschetta is a popular Italian appetizer, well-loved for its
+            simplicity and delightful flavours.
+          </p>
+        </div>
+      </div>
+      <div className="card">
+        <img src={Lemon} alt="Card 4" />
+        <div className="card-body">
+          <h2>
+            Lemon pie <span>$7.00</span>
+          </h2>
+          <p>
+            Our signature dish, Lemon pie, also known as lemon meringue pie, is
+            a popular dessert known for its tangy, sweet, and creamy flavours.
+          </p>
+        </div>
+      </div>
+    </div>
   );
 }
 
