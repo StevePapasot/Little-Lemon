@@ -1,5 +1,10 @@
 import React from "react";
 import "./Testimonials.css";
+import One from "./One.png";
+import two from "./two.png";
+import three from "./three.png";
+import four from "./four.png";
+import five from "./five.png";
 
 function Testimonials() {
   return (
@@ -7,8 +12,8 @@ function Testimonials() {
       <h2>Testimonials</h2>
       <div className="testimonials-container">
         <div className="testimonial">
-          <img src="https://via.placeholder.com/150" alt="testimonial" />
-          <h3>John Doe</h3>
+          <img src={One} alt="testimonial" />
+          <h3>Kate Doe</h3>
           <p>
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -16,7 +21,7 @@ function Testimonials() {
           </p>
         </div>
         <div className="testimonial">
-          <img src="https://via.placeholder.com/150" alt="testimonial" />
+          <img src={two} alt="testimonial" />
           <h3>Jane Smith</h3>
           <p>
             "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -24,7 +29,7 @@ function Testimonials() {
           </p>
         </div>
         <div className="testimonial">
-          <img src="https://via.placeholder.com/150" alt="testimonial" />
+          <img src={three} alt="testimonial" />
           <h3>Bob Johnson</h3>
           <p>
             "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
@@ -32,16 +37,16 @@ function Testimonials() {
           </p>
         </div>
         <div className="testimonial">
-          <img src="https://via.placeholder.com/150" alt="testimonial" />
-          <h3>Alice Lee</h3>
+          <img src={four} alt="testimonial" />
+          <h3>Mark Davis</h3>
           <p>
             "Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur."
           </p>
         </div>
         <div className="testimonial">
-          <img src="https://via.placeholder.com/150" alt="testimonial" />
-          <h3>Mark Davis</h3>
+          <img src={five} alt="testimonial" />
+          <h3> Alice Lee</h3>
           <p>
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua."
