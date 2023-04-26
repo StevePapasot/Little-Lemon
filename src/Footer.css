@@ -49,6 +49,11 @@ iframe {
   width: 60%;
   height: 250px;
 }
+@media screen and (max-width: 1550px) {
+  footer {
+    margin-top: 10%;
+  }
+}
 @media screen and (max-width: 1100px) {
   .column {
     padding: 0%;
