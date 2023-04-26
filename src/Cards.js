@@ -25,6 +25,7 @@ function Cards() {
             health benefits. A very nutritious meal with great taste and
             flavours.
           </p>
+          <span>Order a delivery</span>
         </div>
       </div>
       <div className="card">
@@ -36,8 +37,10 @@ function Cards() {
           <p>
             Tacos are a popular and versatile Mexican dish that has gained
             immense popularity around the world because of their delicious
-            flavours and versatility. A great starting dish.
+            flavours and versatility. A great starting dish to begin you food
+            experience.
           </p>
+          <span>Order a delivery</span>
         </div>
       </div>
       <div className="card">
@@ -48,8 +51,10 @@ function Cards() {
           </h2>
           <p>
             Bruschetta is a popular Italian appetizer, well-loved for its
-            simplicity and delightful flavours.
+            simplicity and delightful flavours. It has a bread base and chopped
+            tomato and other vegetables on top seasoned with salt and olive oil.
           </p>
+          <span>Order a delivery</span>
         </div>
       </div>
       <div className="card">
@@ -61,6 +66,10 @@ function Cards() {
           <p>
             Our signature dish, Lemon pie, also known as lemon meringue pie, is
             a popular dessert known for its tangy, sweet, and creamy flavours.
+            Try our lemon pie the best of your life.
+          </p>
+          <p>
+            <span>Order a delivery</span>
           </p>
         </div>
       </div>
