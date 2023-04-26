@@ -3,6 +3,7 @@ import Hero from "./Hero.js";
 import Cards from "./Cards.js";
 import Carousel from "./Carourel.js";
 import Testimonials from "./Testimonials.js";
+import Footer from "./Footer.js";
 import "./App.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Cards />
       <Testimonials />
       <Carousel />
+      <Footer />
     </>
   );
 }
